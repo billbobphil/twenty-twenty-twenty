@@ -1,22 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 .App {
-  text-align: center;
+  background-color: #333;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
+.header {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+
+
+.col {
+  text-align: center;
+}
+
+.col-1of3 {
+
+}
+
+.col-1of3 span {
+  color: white;
+  font-size: 7rem;
+  max-width: 100%;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+
+.header-buttons {
+  flex-direction: row;
+  
+  margin-top: 3rem;
+}
+
+.col-1of2 {
+  width: 50%;
+}
+
+.col-1of2 span {
+  border: 2px solid white;
+  padding: 1.5rem .75rem;
+  border-radius: 6px;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.col-1of2 a {
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 1.5rem .75rem;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.description-container {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+
+.description-container a {
+  color: white;
+  font-weight: bold;
 }
