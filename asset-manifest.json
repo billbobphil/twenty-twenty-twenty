@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/twenty-twenty-twenty/static/css/main.b100e6da.chunk.css",
+    "main.js": "/twenty-twenty-twenty/static/js/main.d99f96ef.chunk.js",
+    "main.js.map": "/twenty-twenty-twenty/static/js/main.d99f96ef.chunk.js.map",
+    "runtime-main.js": "/twenty-twenty-twenty/static/js/runtime-main.7036be6c.js",
+    "runtime-main.js.map": "/twenty-twenty-twenty/static/js/runtime-main.7036be6c.js.map",
+    "static/js/2.bd12f266.chunk.js": "/twenty-twenty-twenty/static/js/2.bd12f266.chunk.js",
+    "static/js/2.bd12f266.chunk.js.map": "/twenty-twenty-twenty/static/js/2.bd12f266.chunk.js.map",
+    "index.html": "/twenty-twenty-twenty/index.html",
+    "precache-manifest.f085461c5256edc3125c9b85350b3fa5.js": "/twenty-twenty-twenty/precache-manifest.f085461c5256edc3125c9b85350b3fa5.js",
+    "service-worker.js": "/twenty-twenty-twenty/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/twenty-twenty-twenty/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/twenty-twenty-twenty/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7036be6c.js",
+    "static/js/2.bd12f266.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.d99f96ef.chunk.js"
+  ]
+}
