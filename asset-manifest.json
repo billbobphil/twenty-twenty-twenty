@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/twenty-twenty-twenty/static/css/main.46a81bba.chunk.css",
-    "main.js": "/twenty-twenty-twenty/static/js/main.2acf2e91.chunk.js",
-    "main.js.map": "/twenty-twenty-twenty/static/js/main.2acf2e91.chunk.js.map",
+    "main.css": "/twenty-twenty-twenty/static/css/main.b36cc4a2.chunk.css",
+    "main.js": "/twenty-twenty-twenty/static/js/main.5280fbb7.chunk.js",
+    "main.js.map": "/twenty-twenty-twenty/static/js/main.5280fbb7.chunk.js.map",
     "runtime-main.js": "/twenty-twenty-twenty/static/js/runtime-main.7036be6c.js",
     "runtime-main.js.map": "/twenty-twenty-twenty/static/js/runtime-main.7036be6c.js.map",
     "static/js/2.bd12f266.chunk.js": "/twenty-twenty-twenty/static/js/2.bd12f266.chunk.js",
     "static/js/2.bd12f266.chunk.js.map": "/twenty-twenty-twenty/static/js/2.bd12f266.chunk.js.map",
     "index.html": "/twenty-twenty-twenty/index.html",
-    "precache-manifest.59b155f2d654b233915ff32acc82a09b.js": "/twenty-twenty-twenty/precache-manifest.59b155f2d654b233915ff32acc82a09b.js",
+    "precache-manifest.a1602575fd3035026654128b5523e0d1.js": "/twenty-twenty-twenty/precache-manifest.a1602575fd3035026654128b5523e0d1.js",
     "service-worker.js": "/twenty-twenty-twenty/service-worker.js",
-    "static/css/main.46a81bba.chunk.css.map": "/twenty-twenty-twenty/static/css/main.46a81bba.chunk.css.map",
+    "static/css/main.b36cc4a2.chunk.css.map": "/twenty-twenty-twenty/static/css/main.b36cc4a2.chunk.css.map",
     "static/media/Twenty-Twenty-Twenty-Console.exe": "/twenty-twenty-twenty/static/media/Twenty-Twenty-Twenty-Console.69aa14a7.exe"
   },
   "entrypoints": [
     "static/js/runtime-main.7036be6c.js",
     "static/js/2.bd12f266.chunk.js",
-    "static/css/main.46a81bba.chunk.css",
-    "static/js/main.2acf2e91.chunk.js"
+    "static/css/main.b36cc4a2.chunk.css",
+    "static/js/main.5280fbb7.chunk.js"
   ]
 }
