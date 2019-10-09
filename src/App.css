@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 *,
 html,
@@ -6,89 +7,98 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   font-size: 10px;
 }
 
 body {
   font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
+  background-color: #2AE;
+}
 
+body::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #DDD;
 }
 
 .App {
-  background-color: #333;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.header {
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-
-.col {
+.title {
+  font-size: 15rem;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 7rem;
   text-align: center;
+  font-family: 'Raleway', 'Montserrat', sans-serif;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 
-.col-1of3 {
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
 
 }
 
-.col-1of3 span {
-  color: white;
-  font-size: 7rem;
-  max-width: 100%;
-  margin-bottom: 3rem;
-  display: block;
-}
-
-
-.header-buttons {
-  flex-direction: row;
-  
-  margin-top: 3rem;
-}
-
-.col-1of2 {
-  width: 50%;
-}
-
-.col-1of2 span {
-  border: 2px solid white;
-  padding: 1.5rem .75rem;
-  border-radius: 6px;
-  color: white;
-}
-
-.col-1of2 a {
+.button-container a {
+  font-size: 3rem;
   text-decoration: none;
-  border: 2px solid white;
-  padding: 1.5rem .75rem;
-  border-radius: 6px;
   color: white;
-  cursor: pointer;
+  letter-spacing: 2rem;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 2rem 3rem;
+  transition: .2s all;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.button-container a:hover {
+  background-color: white;
+  color: #2AE;
 }
 
 .description-container {
-  color: white;
   width: 80%;
   margin: 0 auto;
- 
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+  margin-bottom: 10rem;
 }
 
 .description-container a {
+  text-decoration: none;
   color: white;
-  font-weight: bold;
+  transition: .2s all;
+}
+
+.description-container a:hover {
+  border-bottom: 1px solid white;
 }
